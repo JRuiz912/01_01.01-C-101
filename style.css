@@ -1,5 +1,33 @@
 @charset "UTF-8";
 
-caption{
-  font-size: 200px;
+body{
+  text-align: center;
+  padding-left: 50px;
+  letter-spacing: 2px;
+}
+/*I made the aside with the class of left to be floating left and have the width of 33 percent.*/
+aside#left{
+  float: left;
+  width: 33%;
+}
+
+/*I made the article with the class of center to be floating left and the width of 33 percent.*/
+article#center{
+float: left;
+width: 33%;
+}
+
+/*I made the aside with the class of right to be floating left and hae the width of 33 percent.*/
+aside#right{
+  float: left;
+  width: 33%;
+}
+
+/*I made the paragraph to be cleared of both.*/
+p{
+  clear: both;
+}
+
+@media only screen and (min-width: 640px) {
+
 }
